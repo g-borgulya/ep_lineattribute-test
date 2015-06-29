@@ -32,11 +32,14 @@
 
 		this.aceDomLineProcessLineAttributes = _.bind (function (name, context) {
 			// decorate the line if it has an attribute
+			var match = /specialLine/i.exec (context.cls);
+			if (match) {
 			return [{
-				preHtml: '',
-				postHtml: '',
-				processedMarker: true
-			}];
+					preHtml: '',
+					postHtml: '',
+					processedMarker: true
+				}];
+			};
 		}, this);
 	};
 }(window.TEMP = window.TEMP || {}));
