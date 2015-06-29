@@ -1,0 +1,29 @@
+{
+  "name": "ep_lineattribute-test",
+  "version": "0.0.1",
+  "description": "test",
+  "author": {
+      "name" : "Gergely Borgulya",
+      "email" : "gergely@opp.io"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "dist": {
+    "shasum": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "Apache",
+  "homepage": "https://github.com/g-borgulya/ep_lineattribute-test"
+}

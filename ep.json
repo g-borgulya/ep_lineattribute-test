@@ -1,0 +1,11 @@
+{
+    "parts": [{
+        "name": "lineattribute-test",
+        "client_hooks": {
+            "aceEditEvent": "ep_lineattribute-test/static/js/temp",
+            "aceAttribsToClasses": "ep_lineattribute-test/static/js/temp",
+            "aceDomLineProcessLineAttributes": "ep_lineattribute-test/static/js/temp",
+            "aceInitialized": "ep_lineattribute-test/static/js/temp"
+        }
+    }]
+}
