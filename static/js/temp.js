@@ -38,6 +38,10 @@
 					preHtml: '',
 					postHtml: '',
 					processedMarker: true
+					// changing this to false puts
+					// a * to the beginning of the
+					// actual rendered line, but also
+					// stops the caret's weird walking.
 				}];
 			};
 		}, this);
