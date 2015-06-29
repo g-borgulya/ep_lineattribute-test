@@ -24,6 +24,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "Apache",
+  "license": "CC0",
   "homepage": "https://github.com/g-borgulya/ep_lineattribute-test"
 }
