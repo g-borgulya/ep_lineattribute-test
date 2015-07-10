@@ -48,10 +48,6 @@
 						preHtml: '<x-whatever style="background-color: #5EEB8A;">',
 						postHtml: '</x-whatever>',
 						processedMarker: true
-						// changing this to false puts
-						// a * to the beginning of the
-						// actual rendered line, but also
-						// stops the caret's weird walking.
 					}];
 			};
 			return [];
