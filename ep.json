@@ -2,6 +2,7 @@
     "parts": [{
         "name": "lineattribute-test",
         "client_hooks": {
+            "aceRegisterBlockElements": "ep_lineattribute-test/static/js/temp",
             "aceEditEvent": "ep_lineattribute-test/static/js/temp",
             "aceAttribsToClasses": "ep_lineattribute-test/static/js/temp",
             "aceDomLineProcessLineAttributes": "ep_lineattribute-test/static/js/temp",
